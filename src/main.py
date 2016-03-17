@@ -11,6 +11,8 @@ if __name__ == '__main__':
     view = QDeclarativeView()
     url = QUrl('minehunt.qml')
     view.setSource(url)
+    context = view.rootContext()
+    context.setContextProperty("Qt", app)
     #  view.setResizeMode(QDeclarativeView.SizeRootObjectToView)
     view.show()
     sys.exit(app.exec_())
