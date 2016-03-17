@@ -1,5 +1,5 @@
-Minesweeper
-===========
+sakura-sweeper
+==============
 
 minesweeper game.
 
